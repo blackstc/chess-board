@@ -1,11 +1,12 @@
-var gridSize = 8
+var gridHeight = 3
+var gridwidth = 15
 
-for (var i = 0; i < gridSize; i++) {
+for (var i = 0; i < gridHeight; i++) {
   var row = "";
   if (i % 2 === 0) {
     row += " ";
   }
-  for (var j = 0; j < gridSize; j++)
+  for (var j = 0; j < gridwidth; j++)
     if(j % 2 === 0) {
       row += " ";
     } else {
